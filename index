@@ -1,0 +1,39 @@
+<div class="header" id ="header">
+  <div class="logo" id="header-img">
+    
+  </div>
+  <nav>
+  <ul>
+    <li><a href="#about">About</a></li>
+    <li><a href="#albums">Albums</a></li>
+    <li><a href="#">third</a></li>
+  </ul>
+</nav>
+  
+</div>
+
+<form id="form">
+  <label for="email">Handcrafted, home-made masterpieces</label>
+  <input type="email" id="email" placeholder="Digite o seu e-mail..." required />
+  <input type="submit" id="submit" value="Get!">
+</form>
+
+<div class="description">
+  <div></div>
+  <div></div>
+  <div></div>
+</div>
+
+<div class="embed" id="video">
+  
+</div>
+
+<div class="products">
+  <div></div>
+  <div></div>
+  <div></div>
+</div>
+
+<div class="footer">
+  
+</div>
