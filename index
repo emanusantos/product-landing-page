@@ -1,39 +1,37 @@
-<div class="header" id ="header">
-  <div class="logo" id="header-img">
-    
+<header id="header">
+  <nav id="nav-bar">
+    <a href="#header" class="nav-link">Sobre</a>
+    <a href="#function" class="nav-link">Funcionamento</a>
+    <a href="#obter" class="nav-link">Obter</a>
+  </nav>
+  <div class="container">
+    <div class="header-left">
+      <h1>Conheça o <p>SmartestWatch™</h1>
+      <p>O único e incomparável. O mais dá-Hora.</p>
+      <p>Adquira já o seu.</p>
+    </div>
+    <div class="header-right">
+      <img src="https://www.flaticon.com/svg/vstatic/svg/619/619997.svg?token=exp=1619549888~hmac=9f73048264f7df91c5e444de3f0d51bf" alt="watch" id="header-img">
+    </div>
+    </div>
+</header>
+
+
+<div class="embed" id="function">
+  <h2>Video</h2>
+  <div class="container">
+    <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/73rwaIDp7zw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+ </div>
+</div>
+
+<section id="obter">
+  <div class="obter">
+    <h2>Assine e saiba como obter!</h2>
+    <form action="" id="form">
+      <div class="flex">
+        <input name="email" type="email" id="email" placeholder="Digite seu e-mail...">
+        <input type="submit" id="submit" formaction=" https://www.freecodecamp.com/email-submit)">
+       </div>
+    </form>
   </div>
-  <nav>
-  <ul>
-    <li><a href="#about">About</a></li>
-    <li><a href="#albums">Albums</a></li>
-    <li><a href="#">third</a></li>
-  </ul>
-</nav>
-  
-</div>
-
-<form id="form">
-  <label for="email">Handcrafted, home-made masterpieces</label>
-  <input type="email" id="email" placeholder="Digite o seu e-mail..." required />
-  <input type="submit" id="submit" value="Get!">
-</form>
-
-<div class="description">
-  <div></div>
-  <div></div>
-  <div></div>
-</div>
-
-<div class="embed" id="video">
-  
-</div>
-
-<div class="products">
-  <div></div>
-  <div></div>
-  <div></div>
-</div>
-
-<div class="footer">
-  
-</div>
+</section>
